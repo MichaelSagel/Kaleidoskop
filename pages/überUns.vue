@@ -1,26 +1,38 @@
 <template>
-    <div class="layout startseite">
 
-        <div class="startseiteInfo">
+    <div class="nav">
 
-            Unsere Referentinen und Referenten
+        <div class="navBar">
+
+                    
+            <NuxtLink to="/überUns" class="navButton">
+
+            Referenten /inen
+
+            </NuxtLink>
+
+                    
+            <NuxtLink to="/überUns/partners" class="navButton">
+
+            Partner und Förderer
+
+            </NuxtLink>
 
         </div>
-       
+
         <div>
 
-            Unsere Referentienen und Referenten engagieren sich seit Jahren  
-            in der internationalen Jugendarbeit in Deutschland.<br>
-            Sie haben eine große Erfahrung als Lehrkraft, Referenten und Fachkraft, <br>
-            die sie durch  ehrenamtliches Engagement verstärken
+            <Nuxt />
 
         </div>
 
     </div>
+
 </template>
 
 <style>
 
   @import './../assets/styles/startseite.css';
+  @import './../assets/styles/nav.css';
 
 </style>

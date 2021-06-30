@@ -1,11 +1,39 @@
 <template>
     <div class="unsereProjekte">
 
-        <div class="unsereProjekteComponent" >sdfgsdf</div>
+        <div class="unsereProjekteHeader" >Sonntagskoffer</div>
 
-        <div class="unsereProjekteComponent">
+        <div class="imag unsereProjekteHeader">
 
-            unsereProjekte
+          <img src="./../assets/images/Sonntagskoffer.png">
+
+        </div>        
+
+        <div class="unsereProjekteBady">
+
+            <div class="unsereProjektContainer">
+
+                Bunt
+
+                <img src="./../assets/images/bunt.jpg">
+
+            </div>
+            
+            <div class="unsereProjektContainer">
+
+                Kreativ
+
+                <img src="./../assets/images/kreativ.jpg">
+
+            </div>
+            
+            <div class="unsereProjektContainer">
+
+                Lebendig
+
+                <img src="./../assets/images/lebendig.jpg">
+
+            </div>
             
         </div>
         

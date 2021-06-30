@@ -1,6 +1,26 @@
-.button-bady {
+.nav {
+    width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
+}
+
+.navBar {
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 600px;
+}
+
+.navContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.navButton {
+    
     font-size: 16pt;
     text-decoration: underline;
     text-decoration-color: #aacc5c;
@@ -15,6 +35,6 @@
     padding: 8px;
     }
     
-.button-bady:hover {
+.navButton:hover {
     background-color: #aacc5c;
 }

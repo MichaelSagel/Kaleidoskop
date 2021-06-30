@@ -9,9 +9,9 @@
       </div>
 
       <div>
-        Sonntagsstudio wurde 2010 über ein Landesprojekt  ins Leben gerufen.<br><br> Seit 2002 ist Jugend in Jugendklub "Explosion"  als Jugendfreizeiteinrichtung durch die Stadt,JunOst e.V und DJO - deutsche Jugend in Europa gefördert.<br><br>
+        Sonntagsstudio wurde 2010 über ein Landesprojekt  ins Leben gerufen.<br> Seit 2002 ist Jugend in Jugendklub "Explosion"  als Jugendfreizeiteinrichtung durch die Stadt,<br>JunOst e.V und DJO - deutsche Jugend in Europa gefördert.<br><br>
 
-        Die aktive Beteiligung und Einbindung der Besucherinnen und Besucher, wie auch die interkulturelle Öffnung sind Querschnittsaufgaben und als solche in den Angeboten  verankert.<br><br>
+        Die aktive Beteiligung und Einbindung der Besucherinnen und Besucher,<br>wie auch die interkulturelle Öffnung sind Querschnittsaufgaben und als solche in den Angeboten  verankert.<br><br>
       </div>
 
       <div>
@@ -78,7 +78,6 @@ export default {
 <style>
 
   @import './../assets/styles/global.css';
-  @import './../assets/styles/app.css';
   @import './../assets/styles/startseite.css';
 
 </style>

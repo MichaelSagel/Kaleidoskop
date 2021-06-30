@@ -10,35 +10,35 @@
 
     <div class="img-kaleidoskop">
 
-    <NuxtLink to="/unsereProjekte" class="button-bady">
+      <NuxtLink to="/unsereProjekte" class="button-bady">
 
-      Unsere Projekte
+        Unsere Projekte
 
-    </NuxtLink>
+      </NuxtLink>
 
-    <NuxtLink to="/termine" class="button-bady">
+      <NuxtLink to="/termine" class="button-bady">
 
-      Termine
+        Termine
 
-    </NuxtLink>
+      </NuxtLink>
 
-    <NuxtLink to="/galerie" class="button-bady">
+      <NuxtLink to="/galerie" class="button-bady">
 
-      Galerie
+        Galerie
 
-    </NuxtLink>
+      </NuxtLink>
 
-    <NuxtLink to="/angebote" class="button-bady">
+      <NuxtLink to="/angebote" class="button-bady">
 
-      Angebote
+        Angebote
 
-    </NuxtLink>
+      </NuxtLink>
 
-    <NuxtLink to="/überUns" class="button-bady">
+      <NuxtLink to="/überUns" class="button-bady">
 
-      Über uns
+        Über uns
 
-    </NuxtLink>
+      </NuxtLink>
       
     </div>
   </div>
