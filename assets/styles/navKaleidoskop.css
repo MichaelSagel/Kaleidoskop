@@ -1,0 +1,27 @@
+.img{
+    width: 100%;
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    border:0;
+    height: 140px;
+}
+
+.img-kaleidoskop{
+    width: 100%;
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border:0;
+    background-color: #df7373;
+    height: 140px;
+    border-radius: 16px;
+}
+
+.img-kaleidoskop-bady {
+    height: 140px;
+    margin-right: 36px;
+}

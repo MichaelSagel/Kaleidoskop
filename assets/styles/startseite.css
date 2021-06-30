@@ -1,0 +1,15 @@
+.startseiteInfoText{
+    margin: 8px;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.startseiteInfo {
+    font-size: 26px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-decoration: underline;
+    text-decoration-color: #aacc5c;
+}

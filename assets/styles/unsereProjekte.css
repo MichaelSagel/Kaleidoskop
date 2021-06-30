@@ -1,0 +1,12 @@
+.unsereProjekte{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+
+.unsereProjekteComponent {
+    margin: 8px;
+
+
+}

@@ -1,73 +1,84 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        kaleidoskop
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+
+  <div class="layout startseite">
+
+    <div class="startseiteInfoText">
+
+      <div class="startseiteInfo">
+        Integration-Kulturzentrum Kaleidoskop e.V<br><br>
       </div>
+
+      <div>
+        Sonntagsstudio wurde 2010 über ein Landesprojekt  ins Leben gerufen.<br><br> Seit 2002 ist Jugend in Jugendklub "Explosion"  als Jugendfreizeiteinrichtung durch die Stadt,JunOst e.V und DJO - deutsche Jugend in Europa gefördert.<br><br>
+
+        Die aktive Beteiligung und Einbindung der Besucherinnen und Besucher, wie auch die interkulturelle Öffnung sind Querschnittsaufgaben und als solche in den Angeboten  verankert.<br><br>
+      </div>
+
+      <div>
+
+        <div class="startseiteInfo">
+
+          Sonntagsstudio-Angebote:<br><br>
+
+        </div>
+
+        <div>
+
+          Freizeitpädagogische Angebote<br><br>
+          Bewegungsangebot(Tanzen)<br><br>
+          Kochangebot<br><br>
+          Kreativangebot(Basteln,Musik)<br><br>
+          Wochenendöffnungen<br><br>
+          Ferienprogramme<br><br>
+
+        </div>
+
+        <div>
+
+          <div class="startseiteInfo">
+
+            Zielgruppen:
+
+          </div>
+
+          <div>
+
+            Kinder und Jugendliche aller Nationalitäten und Kulturen<br><br>
+            Eltern
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
+
+
+    <Nuxt />
+
   </div>
 </template>
 
 <script>
-export default {}
+
+    import logo from './../components/home/logo.vue';
+
+export default {
+
+    auth: false,
+
+  components: {
+    logo,
+  },
+};
+
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  @import './../assets/styles/global.css';
+  @import './../assets/styles/app.css';
+  @import './../assets/styles/startseite.css';
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

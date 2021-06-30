@@ -1,0 +1,27 @@
+.info{
+    width: 100%;
+    position: relative;
+    padding-top: 36px;
+    color: #000000;
+}
+    
+.virtex{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+    
+.text-info {
+    margin: 8px;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.adressen{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
