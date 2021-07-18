@@ -28,8 +28,6 @@
 
       </div>
 
-        {{'\xa0'}}
-
       <div class="text-info">
 
         Jugendklub "Explosion"<br><br>
@@ -41,7 +39,7 @@
       <div class="text-info">
 
         Zentrum-Büro<br><br>
-        Maria-Juchatzstr.8<br><br>
+        Am Stadtwald 6d<br><br>
         77656 Offenburg<br><br>
 
       </div>
@@ -52,6 +50,7 @@
         djo-deutsche Jugend in Europa<br><br>
         LV BaWü e.V<br><br>
         Olga Gart<br><br>
+        Ikz_kaleidoskop@yahoo.com<br><br>
         Tel.0781/9672807<br><br>
 
       </div>

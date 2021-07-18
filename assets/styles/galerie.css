@@ -1,8 +1,22 @@
 .galerieContainer{
-    width: 900px;
-    height: 200px;
+    width: 100%;
 }
 
 .photoContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
+}
+
+.image{
+    width: auto;
+    height: 200px;
+    margin: 8px;
+}
+
+.indexImage{
+    width: auto;
+    height: 400px;
+    margin: 8px;
 }

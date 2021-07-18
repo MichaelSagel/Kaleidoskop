@@ -1,58 +1,36 @@
 <template>
 
-   <div class="galerieContainer">
+    <div class="galerieContainer">
 
-       <div class="photoContainer">
-                
-        <vueper-slides :slide-ratio="1 / 2" fixed-height="600px">
-        <vueper-slide v-for="(slide, i) in slides" :key="i" :image="slide.image" />
-        </vueper-slides>
+        <div id="app" class="photoContainer">
+            <img class="indexImage" v-for="(image, i) in images" :src="image" :key="i" @click="index = i">
+            <client-only placeholder="Loading...">
+                <VueGallerySlideshow :images="images" :index="index" @close="index = null" />
+            </client-only>
+        </div>
 
-       </div>
-
-   </div>
+    </div>
 
 </template>
 
 
 <script>
 
-    import { VueperSlides, VueperSlide } from 'vueperslides'
-    import 'vueperslides/dist/vueperslides.css'
+    import VueGallerySlideshow from 'vue-gallery-slideshow';
 
     export default {
-    components: { VueperSlides, VueperSlide },
+    components: { VueGallerySlideshow },
   
     data: () => ({
-        slides: [
-            { image: require('./../../assets/photos/graffiti/graffiti1.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti2.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti3.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti4.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti5.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti6.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti7.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti8.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti9.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti10.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti11.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti12.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti13.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti14.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti15.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti16.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti17.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti18.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti19.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti20.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti21.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti22.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti23.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti24.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti25.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti26.jpg') },
-            { image: require('./../../assets/photos/graffiti/graffiti27.jpg') },
-        ]
+        images: [
+            require('./../../assets/photos/auszeichnungen/auszeichnungen1.jpg') ,
+            require('./../../assets/photos/auszeichnungen/auszeichnungen2.png') ,
+            require('./../../assets/photos/auszeichnungen/auszeichnungen3.png') ,
+            require('./../../assets/photos/auszeichnungen/auszeichnungen4.png') ,
+            require('./../../assets/photos/auszeichnungen/auszeichnungen5.png') ,
+            require('./../../assets/photos/auszeichnungen/auszeichnungen6.jpg') ,
+        ],
+    index: null
         })
 
     }

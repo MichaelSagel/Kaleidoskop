@@ -10,9 +10,9 @@
 
     <div class="img-kaleidoskop">
 
-      <NuxtLink to="/unsereProjekte" class="button-bady">
+      <NuxtLink to="/Sonntagskoffer" class="button-bady">
 
-        Unsere Projekte
+        Sonntagskoffer
 
       </NuxtLink>
 

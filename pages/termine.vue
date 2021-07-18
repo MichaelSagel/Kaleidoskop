@@ -2,10 +2,11 @@
 
   <div class="layout">
 
-   
+    <div>
 
-      <h2>Termine</h2>       
+      <img class="baustelleImg" src="./../assets/images/Bearbeitung.jpg">    
 
+    </div>
      
   </div>
 </template>
@@ -24,6 +25,7 @@ export default {
 
 <style>
 
+  @import './../assets/styles/baustelle.css';
   @import './../assets/styles/global.css';
   @import './../assets/styles/app.css';
 

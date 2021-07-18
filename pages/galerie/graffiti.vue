@@ -1,0 +1,67 @@
+<template>
+
+    <div class="galerieContainer">
+
+        <div id="app" class="photoContainer">
+            <img class="image" v-for="(image, i) in images" :src="image" :key="i" @click="index = i">
+            <client-only placeholder="Loading...">
+                <VueGallerySlideshow :images="images" :index="index" @close="index = null" />
+            </client-only>
+        </div>
+
+    </div>
+
+</template>
+
+
+<script>
+
+    import VueGallerySlideshow from 'vue-gallery-slideshow';
+
+    export default {
+    components: { VueGallerySlideshow },
+  
+    data: () => ({
+        images: [
+            require('./../../assets/photos/graffiti/graffiti1.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti2.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti3.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti4.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti5.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti6.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti7.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti8.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti9.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti10.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti11.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti12.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti13.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti14.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti15.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti16.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti17.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti18.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti19.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti20.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti21.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti22.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti23.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti24.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti25.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti26.jpg') ,
+            require('./../../assets/photos/graffiti/graffiti27.jpg') ,
+        ],
+    index: null
+        })
+
+    }
+
+</script>
+
+
+
+<style>
+
+     @import './../../assets/styles/galerie.css';
+
+</style>

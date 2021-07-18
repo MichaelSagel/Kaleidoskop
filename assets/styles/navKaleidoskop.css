@@ -24,3 +24,16 @@
     height: 140px;
     margin-right: 36px;
 }
+
+
+@media screen and (max-width: 750px) {
+
+    .img-kaleidoskop{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+
+    }
+    
+
+}

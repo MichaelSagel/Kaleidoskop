@@ -3,8 +3,11 @@
   <div class="layout">
 
    
+    <div>
 
-      <h2>angebote</h2>       
+      <img src="./../assets/images/Bearbeitung.jpg">    
+
+    </div>
 
      
   </div>

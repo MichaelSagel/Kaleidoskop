@@ -1,0 +1,25 @@
+.team {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.projekt{
+    display: flex;
+}
+
+.projektImg{
+    width: auto;
+    height: 200px;
+}
+
+.teamMember {
+    margin: 8px;
+    margin-top: 36px;
+    width: auto;
+    height: 400px;
+}
+
+.teamImg{
+    width: auto;
+    height: 400px;
+}

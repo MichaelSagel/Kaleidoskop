@@ -7,13 +7,13 @@
                     
             <NuxtLink to="/galerie" class="navButton">
 
-            Graffiti Workshop am 6.11.2016
+            Auszeichnungen
 
             </NuxtLink>
                     
-            <NuxtLink to="/galerie/auszeichnungen" class="navButton">
+            <NuxtLink to="/galerie/graffiti" class="navButton">
 
-            Auszeichnungen
+            Graffiti Workshop
 
             </NuxtLink>
                     
