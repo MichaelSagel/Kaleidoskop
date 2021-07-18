@@ -1,5 +1,4 @@
 <template>
-
   <div class="layout-bady">
 
     <background/>
@@ -8,70 +7,28 @@
 
     <Nuxt />
 
-     <info/>
+    <info/>
 
   </div>
-
 </template>
 
-
 <script>
-
-    import navKaleidoskop from './../components/home/navKaleidoskop.vue';
-    import info from './../components/home/info.vue';
-    import background from './../components/home/background.vue';
-    
+import navKaleidoskop from './../components/home/navKaleidoskop.vue';
+import info from './../components/home/info.vue';
+import background from './../components/home/background.vue';
 
 export default {
-
-    auth: false,
-
   components: {
     navKaleidoskop,
     info,
     background,
-   
   },
 };
-
 </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <style>
-
-
-
-
-
 @import './../assets/styles/global.css';
 @import './../assets/styles/app.css';
-
-
-
-
-
-
-
-
-
 
 html {
   font-family:

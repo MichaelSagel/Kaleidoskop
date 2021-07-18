@@ -1,55 +1,50 @@
 <template>
-
-  <div class="img">
-
-    <NuxtLink to="/" >
-
-      <img src="./../../assets/images/romb.jpg" alt="Logo" class="img-kaleidoskop-bady" >
-
+  <nav class="navigation">
+    <NuxtLink
+      to="/"
+      class="navigation__image-wrapper"
+    >
+      <img src="./../../assets/images/romb.jpg" alt="Logo" class="navigation__image" >
     </NuxtLink>
-
-    <div class="img-kaleidoskop">
-
-      <NuxtLink to="/Sonntagskoffer" class="button-bady">
-
+    <div class="navigation__list">
+      <NuxtLink
+        to="/Sonntagskoffer"
+        class="button-bady navigation__list-item"
+      >
         Sonntagskoffer
-
       </NuxtLink>
-
-      <NuxtLink to="/termine" class="button-bady">
-
+      <NuxtLink
+        to="/termine"
+        class="button-bady navigation__list-item"
+      >
         Termine
-
       </NuxtLink>
-
-      <NuxtLink to="/galerie" class="button-bady">
-
+      <NuxtLink
+        to="/galerie" 
+        class="button-bady navigation__list-item"
+      >
         Galerie
-
       </NuxtLink>
-
-      <NuxtLink to="/angebote" class="button-bady">
-
+      <NuxtLink
+        to="/angebote" 
+        class="button-bady navigation__list-item"
+      >
         Angebote
-
       </NuxtLink>
-
-      <NuxtLink to="/überUns" class="button-bady">
-
+      <NuxtLink
+        to="/überUns"
+        class="button-bady navigation__list-item"
+      >
         Über uns
-
       </NuxtLink>
-      
+    
     </div>
-  </div>
+  </nav>
 
 </template>
 
 
 <style>
-
-  @import './../../assets/styles/navKaleidoskop.css';
-  @import './../../assets/styles/login.css';
-  @import './../../assets/styles/buttonBady.css';
-
+@import './../../assets/styles/navKaleidoskop.css';
+@import './../../assets/styles/login.css';
 </style>
