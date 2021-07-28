@@ -26,3 +26,10 @@
     margin: 8px;
     font-size: 28px;
 }
+
+@media screen and (max-width: 768px) {
+    .unsereProjekteBady {
+        flex-direction: column;
+        
+    }
+}

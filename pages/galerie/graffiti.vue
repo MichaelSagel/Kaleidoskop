@@ -41,15 +41,6 @@
             require('./../../assets/photos/graffiti/graffiti16.jpg') ,
             require('./../../assets/photos/graffiti/graffiti17.jpg') ,
             require('./../../assets/photos/graffiti/graffiti18.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti19.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti20.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti21.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti22.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti23.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti24.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti25.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti26.jpg') ,
-            require('./../../assets/photos/graffiti/graffiti27.jpg') ,
         ],
     index: null
         })

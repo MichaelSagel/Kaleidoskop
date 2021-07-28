@@ -6,20 +6,19 @@
 }
 
 .navBar {
-    width: 30%;
+    width: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 600px;
 }
 
 .navContent {
     width: 100%;
     display: flex;
     flex-direction: row;
-
 }
+
 .navButton {
     
     font-size: 16pt;
@@ -33,9 +32,21 @@
     border-radius: 4px;
     line-height: 36px;
     font-weight: 500;
-    padding: 8px;
-    }
+}
     
 .navButton:hover {
     background-color: #aacc5c;
+}
+
+@media screen and (max-width: 768px) {
+
+    .adressen {
+        flex-direction: column;
+    }
+
+    .navButton {
+    
+        margin: 10px;
+    }
+
 }

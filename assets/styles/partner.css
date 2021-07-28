@@ -1,0 +1,15 @@
+.partner{
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner-image{
+
+}
+
+@media screen and (max-width: 768px) {
+    .partner-image{
+        max-width: 300px;
+    }
+}

@@ -8,3 +8,9 @@
     flex-direction: column;
     padding: 36px;
 }
+
+@media screen and (max-width: 768px) {
+    .layout-bady {
+        padding: 4px;
+    }
+}

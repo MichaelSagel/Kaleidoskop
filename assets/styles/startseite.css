@@ -15,5 +15,10 @@
 
 .startseite{
     width: 100%;
-    margin-left: 36px;
+}
+
+@media screen and (max-width: 768px) {
+    .startseiteInfoText {
+        flex-direction: column;
+    }
 }

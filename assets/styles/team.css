@@ -23,3 +23,31 @@
     width: auto;
     height: 400px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .team {
+        flex-direction: column;
+    }
+
+    .teamImg {
+        width: 300px;
+        height: auto;
+    }
+
+    .team {
+        margin-bottom: 0px;
+    }
+
+    .teamMember {
+        margin: 8px;
+        margin-top: 24px;
+        width: 200px;
+        height: auto;
+    }
+
+    .projektImg{
+        width: 200px;
+        height: auto;
+    }
+}

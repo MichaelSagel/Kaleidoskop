@@ -7,19 +7,13 @@
                     
             <NuxtLink to="/galerie" class="navButton">
 
+            Auftritte
+
+            </NuxtLink>
+              
+            <NuxtLink to="/galerie/auszeichnungen" class="navButton">
+
             Auszeichnungen
-
-            </NuxtLink>
-                    
-            <NuxtLink to="/galerie/graffiti" class="navButton">
-
-            Graffiti Workshop
-
-            </NuxtLink>
-                    
-            <NuxtLink to="/galerie/aufträtte" class="navButton">
-
-            Aufträtte
 
             </NuxtLink>
 
@@ -71,6 +65,13 @@
 
             </NuxtLink>
 
+                  
+            <NuxtLink to="/galerie/graffiti" class="navButton">
+
+            Graffiti Workshop
+
+            </NuxtLink>
+                    
                     
             <NuxtLink to="/galerie/sonstige" class="navButton">
 
