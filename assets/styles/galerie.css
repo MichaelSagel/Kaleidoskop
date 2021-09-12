@@ -23,12 +23,12 @@
 
 @media screen and (max-width: 768px) {
     .indexImage {
-        width: auto;
-        height: 150px;
+        width: 150px;
+        height: 100%;
     }
 
     .image {
-        width: auto;
-        height: 150px;
+        width: 150px;
+        height: 100%;
     }
 }
