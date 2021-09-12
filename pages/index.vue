@@ -4,9 +4,9 @@
 
     <div class="startseiteInfoText">
 
-      <div class="startseiteInfo">
+      <h1 class="startseiteInfo">
         Integration-Kulturzentrum Kaleidoskop e.V<br><br>
-      </div>
+      </h1>
 
       <div>
         Sonntagsstudio wurde 2010 über ein Landesprojekt  ins Leben gerufen.<br> Seit 2002 ist Jugend in Jugendklub "Explosion"  als Jugendfreizeiteinrichtung durch die Stadt,<br>JunOst e.V und DJO - deutsche Jugend in Europa gefördert.<br><br>

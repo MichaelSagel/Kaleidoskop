@@ -5,11 +5,11 @@
 
             <div class="layout startseite">
 
-                <div class="startseiteInfo">
+                <h1 class="startseiteInfo">
 
                     Kaleidoskop-Team
 
-                </div>
+                </h1>
             
                 <div class="startseiteInfoText">
 

@@ -5,7 +5,8 @@
 
             <div class="layout startseite">
 
-            
+            <h1 class="h1">Unsere Partner</h1>
+
                 <div class="partner">
 
                     <div>
