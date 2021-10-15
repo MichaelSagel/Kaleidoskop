@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+  </body>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "logo": "./../assets/styles/logo.css",
+      "image": "./../assets/images/hands.jpg",
+      "description": "Sonntagsstudio ist ein Landesprojekt. Jugendklub \"Explosion\" ist Jugendfreizeiteinrichtung, JunOst e.V und DJO.",
+      "email": "Ikz_kaleidoskop@yahoo.com",
+      "name": "Integration-Kulturzentrum Kaleidoskop e.V",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Am Stadtwald 6d",
+        "addressLocality": "Offenburg",
+        "addressRegion": "OG",
+        "postalCode": "77656",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.46097102588812,
+        "longitude": 7.921246516611682
+      },
+      "url": "http://kaleidoskop-og.de/",
+      "telephone": "07819672807",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "16:00",
+          "closes": "22:00"
+        }
+      ]
+    }
+  </script>
+</html>
