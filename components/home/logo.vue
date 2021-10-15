@@ -1,10 +1,8 @@
 <template>
 
-    <div class="img-gira">
+    <div class="img-kaleidoskop">
 
-      <img src="./../../assets/images/kaleidoskop.jpg" alt="Logo" class="img-gira-bady">
-
-      <h2>Hello</h2>
+      <img src="./../../assets/images/kaleidoskop.jpg" alt="Logo" class="img-kaleidoskop-bady">
       
     </div>
 

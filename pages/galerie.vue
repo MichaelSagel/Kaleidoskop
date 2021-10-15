@@ -102,7 +102,7 @@
 
 <style>
 
-  @import './../assets/styles/startseite.css';
+  @import './../assets/styles/homepage.css';
   @import './../assets/styles/nav.css';
 
 </style>

@@ -3,15 +3,15 @@
 
         <div class="navContent">
 
-            <div class="layout startseite">
+            <div class="layout homepage">
 
-                <h1 class="startseiteInfo">
+                <h1 class="homepageInfo">
 
                     Kaleidoskop-Team
 
                 </h1>
             
-                <div class="startseiteInfoText">
+                <div class="homepageInfoText">
 
                     Unsere Referentienen und Referenten engagieren sich seit Jahren  
                     in der internationalen Jugendarbeit in Deutschland.<br>
@@ -24,7 +24,7 @@
 
                     <div class="team">
 
-                        <div class="teamMember startseiteInfoText">
+                        <div class="teamMember homepageInfoText">
 
                             Olga Gart<br>
 
@@ -36,7 +36,7 @@
 
                         </div>
 
-                        <div class="teamMember startseiteInfoText">
+                        <div class="teamMember homepageInfoText">
 
                             Nadeschda Loos<br>
 
@@ -46,7 +46,7 @@
 
                         </div>
 
-                        <div class="teamMember startseiteInfoText">
+                        <div class="teamMember homepageInfoText">
 
                             Natalia Scheuermann<br>
 
@@ -61,7 +61,7 @@
 
                     <div class="team">
 
-                        <div class="teamMember startseiteInfoText">
+                        <div class="teamMember homepageInfoText">
 
                             Anastasiya Kaptsiuh<br>
 
@@ -71,7 +71,7 @@
 
                         </div>
 
-                        <div class="teamMember startseiteInfoText">
+                        <div class="teamMember homepageInfoText">
 
                             Luisa Badronova<br>
 
@@ -81,7 +81,7 @@
 
                         </div>
 
-                        <div class="teamMember startseiteInfoText">
+                        <div class="teamMember homepageInfoText">
 
                             Maria Hofman und Nicole Schmid <br>
 
@@ -97,7 +97,7 @@
 
                     <div class="projekt">
 
-                        <div class="teamMember startseiteInfoText">
+                        <div class="teamMember homepageInfoText">
 
                             Projekt/Team<br>
 
@@ -125,7 +125,7 @@
 
 <style>
 
-  @import './../assets/styles/startseite.css';
+  @import './../assets/styles/homepage.css';
   @import './../assets/styles/nav.css';
   @import './../assets/styles/team.css';
 

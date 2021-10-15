@@ -3,7 +3,7 @@
 
         <div class="navContent">
 
-            <div class="layout startseite">
+            <div class="layout homepage">
 
             <h1 class="h1">Unsere Partner</h1>
 
@@ -74,7 +74,7 @@
 <style>
 
     @import './../assets/styles/partner.css';
-    @import './../assets/styles/startseite.css';
+    @import './../assets/styles/homepage.css';
     @import './../assets/styles/nav.css';
 
 </style>

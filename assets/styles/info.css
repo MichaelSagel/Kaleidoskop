@@ -5,13 +5,13 @@
     color: #000000;
 }
     
-.virtex{
+.addressName{
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
 }
     
-.text-info {
+.addressInfo {
     font-size: 18px;
     line-height: 16px;
     font-weight: 500;
@@ -19,14 +19,14 @@
     margin-bottom: 24px;
 }
 
-.adressen {
+.adress {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
-    .adressen {
+    .adress {
         flex-direction: column;
     }
 }

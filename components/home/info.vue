@@ -2,23 +2,23 @@
 
   <div class="info">
 
-    <div class="virtex">
+    <div class="addressName">
         Integration-Kulturzentrum Kaleidoskop e.V<br><br>
         
     </div>
 
-    <div class="text-info">
+    <div class="addressInfo">
         Öffnungszeiten:<br><br>
     </div>
 
-     <div class="text-info">
+     <div class="addressInfo">
       Sonntags: 15:00 bis 17:30 Uhr<br><br>
     </div>
 
 
-    <div class="adressen">
+    <div class="adress">
 
-      <div class="text-info">
+      <div class="addressInfo">
 
       Kindersonntagsstudio <br><br>
       "Vier Koffer"<br><br>
@@ -28,7 +28,7 @@
 
       </div>
 
-      <div class="text-info">
+      <div class="addressInfo">
 
         Jugendklub "Explosion"<br><br>
         Wichernstr.67<br><br>
@@ -36,7 +36,7 @@
 
       </div>
 
-      <div class="text-info">
+      <div class="addressInfo">
 
         Zentrum-Büro<br><br>
         Am Stadtwald 6d<br><br>
@@ -44,7 +44,7 @@
 
       </div>
 
-      <div class="text-info">
+      <div class="addressInfo">
 
         Integrationsreferentin<br><br>
         djo-deutsche Jugend in Europa<br><br>

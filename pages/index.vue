@@ -1,10 +1,10 @@
 <template>
 
-  <div class="layout startseite">
+  <div class="layout homepage">
 
-    <div class="startseiteInfoText">
+    <div class="homepageInfoText">
 
-      <h1 class="startseiteInfo">
+      <h1 class="homepageInfo">
         Integration-Kulturzentrum Kaleidoskop e.V<br><br>
       </h1>
 
@@ -16,7 +16,7 @@
 
       <div>
 
-        <div class="startseiteInfo">
+        <div class="homepageInfo">
 
           Sonntagsstudio-Angebote:<br><br>
 
@@ -35,7 +35,7 @@
 
         <div>
 
-          <div class="startseiteInfo">
+          <div class="homepageInfo">
 
             Zielgruppen:
 
@@ -78,6 +78,6 @@ export default {
 <style>
 
   @import './../assets/styles/global.css';
-  @import './../assets/styles/startseite.css';
+  @import './../assets/styles/homepage.css';
 
 </style>

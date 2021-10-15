@@ -1,0 +1,17 @@
+# BEGIN WordPress
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+# END WordPress
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^kaleidoskop-og.de$
+RewriteRule ^(.*)$ http://kaleidoskop-og.de/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^kaleidoskop-og.de$
+RewriteRule ^(.*)$ http://kaleidoskop-og.de/galerie/$1 [R=301,L]
+
