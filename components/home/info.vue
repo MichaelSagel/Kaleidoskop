@@ -23,38 +23,38 @@
 
       <div class="addressInfo">
 
-      Kindersonntagsstudio </p>
-      "Vier Koffer"</p>
-      STFZ Albersbösch</p>
-      Altenburger Allee 8</p>
-      77656 Offenburg
+      <span>Kindersonntagsstudio</span>
+      <span>"Vier Koffer"</span>
+      <span>STFZ Albersbösch</span>
+      <span>Altenburger Allee 8</span>
+      <span>77656 Offenburg</span>
 
       </div>
 
       <div class="addressInfo">
 
-        Jugendklub "Explosion"</p>
-        Wichernstr.67</p>
-        77656 Offenburg
+        <span>Jugendklub "Explosion"</span>
+        <span>Wichernstr.67</span>
+        <span>77656 Offenburg</span>
 
       </div>
 
       <div class="addressInfo">
 
-        Zentrum-Büro</p>
-        Am Stadtwald 6d</p>
-        77656 Offenburg
+        <span>Zentrum-Büro</span>
+        <span>Am Stadtwald 6d</span>
+        <span>77656 Offenburg</span>
 
       </div>
 
       <div class="addressInfo">
 
-        Integrationsreferentin</p>
-        djo-deutsche Jugend in Europa</p>
-        LV BaWü e.V</p>
-        Olga Gart</p>
-        Ikz_kaleidoskop@yahoo.com</p>
-        Tel.0781/9672807
+        <span>Integrationsreferentin</span>
+        <span>djo-deutsche Jugend in Europa</span>
+        <span>LV BaWü e.V</span>
+        <span>Olga Gart</span>
+        <span>Ikz_kaleidoskop@yahoo.com</span>
+        <span>Tel.0781/9672807</span>
 
       </div>
 
