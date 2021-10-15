@@ -3,55 +3,58 @@
   <div class="info">
 
     <div class="addressName">
-        Integration-Kulturzentrum Kaleidoskop e.V<br><br>
+        Integration-Kulturzentrum Kaleidoskop e.V
         
     </div>
 
-    <div class="addressInfo">
-        Öffnungszeiten:<br><br>
-    </div>
+    <div class="openingHours">
 
-     <div class="addressInfo">
-      Sonntags: 15:00 bis 17:30 Uhr<br><br>
-    </div>
+      <div class="addressInfo">
+        Öffnungszeiten:
+      </div>
 
+      <div class="addressInfo">
+        Sonntags: 15:00 bis 17:30 Uhr
+      </div>
+
+    </div>
 
     <div class="adress">
 
       <div class="addressInfo">
 
-      Kindersonntagsstudio <br><br>
-      "Vier Koffer"<br><br>
-      STFZ Albersbösch<br><br>
-      Altenburger Allee 8<br><br>
-      77656 Offenburg<br><br>
+      Kindersonntagsstudio </p>
+      "Vier Koffer"</p>
+      STFZ Albersbösch</p>
+      Altenburger Allee 8</p>
+      77656 Offenburg
 
       </div>
 
       <div class="addressInfo">
 
-        Jugendklub "Explosion"<br><br>
-        Wichernstr.67<br><br>
-        77656 Offenburg<br><br>
+        Jugendklub "Explosion"</p>
+        Wichernstr.67</p>
+        77656 Offenburg
 
       </div>
 
       <div class="addressInfo">
 
-        Zentrum-Büro<br><br>
-        Am Stadtwald 6d<br><br>
-        77656 Offenburg<br><br>
+        Zentrum-Büro</p>
+        Am Stadtwald 6d</p>
+        77656 Offenburg
 
       </div>
 
       <div class="addressInfo">
 
-        Integrationsreferentin<br><br>
-        djo-deutsche Jugend in Europa<br><br>
-        LV BaWü e.V<br><br>
-        Olga Gart<br><br>
-        Ikz_kaleidoskop@yahoo.com<br><br>
-        Tel.0781/9672807<br><br>
+        Integrationsreferentin</p>
+        djo-deutsche Jugend in Europa</p>
+        LV BaWü e.V</p>
+        Olga Gart</p>
+        Ikz_kaleidoskop@yahoo.com</p>
+        Tel.0781/9672807
 
       </div>
 

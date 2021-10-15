@@ -1,5 +1,5 @@
 <template>
-  <div class="layout-bady">
+  <div class="layout-body">
 
     <background/>
 

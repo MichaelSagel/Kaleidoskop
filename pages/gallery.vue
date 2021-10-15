@@ -1,84 +1,80 @@
 <template>
 
     <div>
-        
-        <h1 class="h1">Galerie</h1>
 
         <div class="nav">
 
-            
-
             <div class="navBar">
                         
-                <NuxtLink to="/galerie" class="navButton">
+                <NuxtLink to="/gallery" class="navButton">
 
                 Auftritte
 
                 </NuxtLink>
                 
-                <NuxtLink to="/galerie/auszeichnungen" class="navButton">
+                <NuxtLink to="/gallery/auszeichnungen" class="navButton">
 
                 Auszeichnungen
 
                 </NuxtLink>
 
                         
-                <NuxtLink to="/galerie/camps" class="navButton">
+                <NuxtLink to="/gallery/camps" class="navButton">
 
                 Camps
 
                 </NuxtLink>
 
                         
-                <NuxtLink to="/galerie/dance" class="navButton">
+                <NuxtLink to="/gallery/dance" class="navButton">
 
                 Dance
 
                 </NuxtLink>
 
                         
-                <NuxtLink to="/galerie/gesang" class="navButton">
+                <NuxtLink to="/gallery/gesang" class="navButton">
 
                 Gesang
 
                 </NuxtLink>
 
                         
-                <NuxtLink to="/galerie/kochmeister" class="navButton">
+                <NuxtLink to="/gallery/kochmeister" class="navButton">
 
                 Kochmeister
 
                 </NuxtLink>
                         
-                <NuxtLink to="/galerie/spielen" class="navButton">
+                <NuxtLink to="/gallery/spielen" class="navButton">
 
                 Spielen
 
                 </NuxtLink>
 
                         
-                <NuxtLink to="/galerie/silvester" class="navButton">
+                <NuxtLink to="/gallery/silvester" class="navButton">
 
                 Silvester
 
                 </NuxtLink>
 
                         
-                <NuxtLink to="/galerie/künstler" class="navButton">
+                <NuxtLink to="/gallery/künstler" class="navButton">
 
                 Künstler
 
                 </NuxtLink>
 
                     
-                <NuxtLink to="/galerie/graffiti" class="navButton">
+                <NuxtLink to="/gallery/graffiti" class="navButton">
 
                 Graffiti Workshop
 
                 </NuxtLink>
                         
                         
-                <NuxtLink to="/galerie/sonstige" class="navButton">
+                <NuxtLink to="/gallery/sonstige" class="navButton">
 
                 Sonstige
 

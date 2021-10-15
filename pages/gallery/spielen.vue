@@ -1,6 +1,6 @@
 <template>
 
-    <div class="galerieContainer">
+    <div class="galleryContainer">
 
         <div id="app" class="photoContainer">
             <img class="image" v-for="(image, i) in images" :src="image" :key="i" @click="index = i">
@@ -53,6 +53,6 @@
 
 <style>
 
-     @import './../../assets/styles/galerie.css';
+     @import './../../assets/styles/gallery.css';
 
 </style>

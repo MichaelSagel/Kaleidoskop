@@ -1,4 +1,4 @@
-.layout-bady {
+.layout-body {
     position: relative;
     min-height: 100vh;
     width: 100%;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .layout-bady {
+    .layout-body {
         padding: 4px;
     }
 }

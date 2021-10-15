@@ -13,5 +13,5 @@ RewriteRule ^(.*)$ http://kaleidoskop-og.de/$1 [R=301,L]
 
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^kaleidoskop-og.de$
-RewriteRule ^(.*)$ http://kaleidoskop-og.de/galerie/$1 [R=301,L]
+RewriteRule ^(.*)$ http://kaleidoskop-og.de/gallery/$1 [R=301,L]
 

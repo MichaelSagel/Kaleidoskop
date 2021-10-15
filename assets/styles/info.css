@@ -1,4 +1,6 @@
 .info{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     position: relative;
     padding-top: 36px;
@@ -9,6 +11,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
+    margin-bottom: 24px;
 }
     
 .addressInfo {
@@ -23,6 +26,10 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+
+.openingHours {
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {

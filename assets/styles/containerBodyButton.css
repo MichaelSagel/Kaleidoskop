@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.letsGetStarted-container-bady {
+.letsGetStarted-container-body {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -20,6 +20,6 @@
     border-radius: 6px;
 }
     
-.letsGetStarted-container-bady:hover {
+.letsGetStarted-container-body:hover {
     background-color: #aacc5c;
 }
