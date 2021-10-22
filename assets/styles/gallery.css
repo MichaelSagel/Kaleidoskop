@@ -1,24 +1,17 @@
-.galleryContainer{
-    width: 100%;
-}
-
 .photoContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
 .image{
-    width: auto;
-    height: 200px;
-    margin: 8px;
+    width: 100%;
+    height: 100%;
 }
 
 .indexImage{
-    width: auto;
-    height: 400px;
-    margin: 8px;
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width: 768px) {
