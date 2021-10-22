@@ -1,99 +1,91 @@
 <template>
+  <nav class="nav">
 
-    <div>
+      <div class="navBar">
+                  
+          <NuxtLink class="navButton"
+            to="/gallery" 
+          >
+            Auftritte
+          </NuxtLink>
+          
+          <NuxtLink class="navButton"
+            to="/gallery/auszeichnungen" 
+            >
+            Auszeichnungen
+          </NuxtLink>
 
-        <div class="nav">
+                  
+          <NuxtLink class="navButton"
+            to="/gallery/camps"
+          >
+            Camps
+          </NuxtLink>
 
-            <div class="navBar">
-                        
-                <NuxtLink to="/gallery" class="navButton">
+                  
+          <NuxtLink class="navButton"
+            to="/gallery/dance"
+          >
+          Dance
+          </NuxtLink>
 
-                Auftritte
+                  
+          <NuxtLink class="navButton"
+            to="/gallery/gesang"
+          >
+            Gesang
+          </NuxtLink>
 
-                </NuxtLink>
-                
-                <NuxtLink to="/gallery/auszeichnungen" class="navButton">
+                  
+          <NuxtLink class="navButton"
+            to="/gallery/kochmeister"
+          >
+            Kochmeister
+          </NuxtLink>
+                  
+          <NuxtLink class="navButton"
+            to="/gallery/spielen"
+          >
+            Spielen
+          </NuxtLink>
 
-                Auszeichnungen
+                  
+          <NuxtLink class="navButton"
+            to="/gallery/silvester"
+          >
+            Silvester
+          </NuxtLink>
 
-                </NuxtLink>
+                  
+          <NuxtLink class="navButton"
+            to="/gallery/künstler"
+          >
+            Künstler
+          </NuxtLink>
 
-                        
-                <NuxtLink to="/gallery/camps" class="navButton">
+              
+          <NuxtLink class="navButton"
+            to="/gallery/graffiti"
+          >
+            Graffiti Workshop
+          </NuxtLink>
+                  
+                  
+          <NuxtLink class="navButton"
+            to="/gallery/sonstige"
+          >
+            Sonstige
+          </NuxtLink>
 
-                Camps
+      </div>
 
-                </NuxtLink>
+      <div>
 
-                        
-                <NuxtLink to="/gallery/dance" class="navButton">
+          <Nuxt />
 
-                Dance
+      </div>
 
-                </NuxtLink>
-
-                        
-                <NuxtLink to="/gallery/gesang" class="navButton">
-
-                Gesang
-
-                </NuxtLink>
-
-                        
-                <NuxtLink to="/gallery/kochmeister" class="navButton">
-
-                Kochmeister
-
-                </NuxtLink>
-                        
-                <NuxtLink to="/gallery/spielen" class="navButton">
-
-                Spielen
-
-                </NuxtLink>
-
-                        
-                <NuxtLink to="/gallery/silvester" class="navButton">
-
-                Silvester
-
-                </NuxtLink>
-
-                        
-                <NuxtLink to="/gallery/künstler" class="navButton">
-
-                Künstler
-
-                </NuxtLink>
-
-                    
-                <NuxtLink to="/gallery/graffiti" class="navButton">
-
-                Graffiti Workshop
-
-                </NuxtLink>
-                        
-                        
-                <NuxtLink to="/gallery/sonstige" class="navButton">
-
-                Sonstige
-
-                </NuxtLink>
-
-
-
-            </div>
-
-            <div>
-
-                <Nuxt />
-
-            </div>
-
-        </div>
-
-    </div>
-
+  </nav>
 </template>
 
 <style>
@@ -102,3 +94,18 @@
   @import './../assets/styles/nav.css';
 
 </style>
+
+<script>
+export default {
+  head: {
+    title: 'Galerie',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Galerie'
+      }
+    ],
+  }
+}
+</script>

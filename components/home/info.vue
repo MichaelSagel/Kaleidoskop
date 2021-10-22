@@ -1,6 +1,6 @@
 <template>  
 
-  <div class="info">
+  <footer class="info">
 
     <div class="addressName">
         Integration-Kulturzentrum Kaleidoskop e.V
@@ -61,7 +61,7 @@
 
     </div>
 
-  </div>
+  </footer>
 
 </template>
 

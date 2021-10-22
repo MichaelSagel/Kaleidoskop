@@ -9,14 +9,14 @@
 }
 
 .navigation__image {
-    height: 140px;
+    height: 60px;
     margin-right: 36px;
 }
 
 .navigation__list {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     position: relative;
     border: 0;
@@ -41,5 +41,10 @@
 @media screen and (max-width: 768px) {
     .navigation__list {
         flex-direction: column;
+    }
+    .navigation__image {
+        height: 140px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }

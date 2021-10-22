@@ -12,6 +12,8 @@
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
 }
     
 .addressInfo {
@@ -21,18 +23,20 @@
     line-height: 16px;
     font-weight: 500;
     color: #000000;
-    margin-bottom: 12px;
+    margin: 12px;
     line-height: 28px;
 }
 
 .adress {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .openingHours {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

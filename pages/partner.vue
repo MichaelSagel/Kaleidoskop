@@ -1,74 +1,102 @@
 <template>
-    <div>
 
-        <div class="navContent">
+        <div class="">
 
-            <div class="layout homepage">
+            <h1
+                class="h1"
+            >
+                Unsere Partner
+            </h1>
 
-            <h1 class="h1">Unsere Partner</h1>
+            <div
+                class="partner"
+            > 
 
-                <div class="partner">
+                <a
+                    href="https://djo.de/"
+                >
+                    <img 
+                        class="partner-image" 
+                        src="./../assets/images/djo.svg"
+                    >
+                </a>
 
-                    <div>
+                <a
+                    href="https://www.bmbf.de/bmbf/de/home/home_node.html"
+                >
+                    <img 
+                        class="partner-image"
+                        src="./../assets/images/bfbuf.png"
+                    >
+                </a>
 
-                        <img class="partner-image" src="./../assets/images/djo.jpg">
+                <a
+                    href="https://www.junost-online.de/"
+                >
 
-                    </div>
+                    <img
+                        class="partner-image"
+                        src="./../assets/images/junost.jpg"
+                    >
+                </a>
 
-                    <div>
+                <a
+                    href="https://www.offenburg.de/"
+                >
+                    <img
+                        class="partner-image"
+                        src="./../assets/images/stadtOffenburg.gif"
+                    >
+                </a>
 
-                        <img class="partner-image" src="./../assets/images/bfbuf.png">
+                <a
+                    href="https://www.buendnisse-fuer-bildung.de/buendnissefuerbildung/de/home/home_node.html"
+                >
+                    <img
+                        class="partner-image"
+                        src="./../assets/images/kms.png"
+                    >
+                </a>
 
-                    </div>
+                <a
+                    href="https://ladogakunst.jimdofree.com/"
+                >
+                    <img
+                        class="partner-image"
+                        src="./../assets/images/ladoga.png"
+                    >
+                </a>
 
-                    <div>
+                <a
+                    href="https://de-de.facebook.com/JurmalasMakslasskola/posts/851318801594203/"
+                >                    
+                    <img
+                        class="partner-image"
+                        src="./../assets/images/rudaga.jpg"
+                    >
+                </a>
+                
+                <a
+                    href="https://www.erloeser-og.de/"
+                >
+                    <img
+                        class="partner-image"
+                        src="./../assets/images/kirche.png"
+                    >
+                </a>
 
-                        <img class="partner-image" src="./../assets/images/junost.png">
+                <a
+                    href="https://www.samovar-ev.de/"
+                >
+                    <img
+                        class="partner-image"
+                        src="./../assets/images/samovar.png"
+                    >
+                </a>
 
-                    </div>
-
-                    <div>
-
-                        <img class="partner-image" src="./../assets/images/stadtOffenburg.gif">
-
-                    </div>
-
-                    <div>
-
-                        <img class="partner-image" src="./../assets/images/kms.png">
-
-                    </div>
-
-                    <div>
-
-                        <img class="partner-image" src="./../assets/images/ladoga.jpg">
-
-                    </div>
-
-                    <div>
-
-                        <img class="partner-image" src="./../assets/images/rudaga.jpg">
-
-                    </div>
-                    
-                    <div>
-
-                        <img class="partner-image" src="./../assets/images/kirche.jpg">
-
-                    </div>
-                    <div>
-
-                        <img class="partner-image" src="./../assets/images/samovar.jpg">
-
-                    </div>
-
-                </div>
-
-            </div>
+            </div>    
 
         </div>
-        
-    </div>
 </template>
 
 <style>
@@ -78,3 +106,18 @@
     @import './../assets/styles/nav.css';
 
 </style>
+
+<script>
+export default {
+  head: {
+    title: 'Partner',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Partner'
+      }
+    ],
+  }
+}
+</script>

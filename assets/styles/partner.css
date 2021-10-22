@@ -1,11 +1,12 @@
 .partner{
-    max-width: 800px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
 .partner-image{
-
+    width: 100%;
+    height: 200px;
 }
 
 @media screen and (max-width: 768px) {

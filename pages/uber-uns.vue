@@ -1,126 +1,124 @@
 <template>
-    <div>
 
-        <div class="navContent">
+    <div class="homepage">
 
-            <div class="layout homepage">
+        <h1
+            class="h1"
+        >
+            Kaleidoskop-Team
+        </h1>
 
-                <h1 class="homepageInfo">
+        <div class="homepageHeader">
 
-                    Kaleidoskop-Team
+            <div class="homepageInfoText">
 
-                </h1>
-            
-                <div class="homepageInfoText">
+                <div class="homepageInfoDescription">Unsere Referentienen und Referenten engagieren sich seit Jahren</div>  
+                <div class="homepageInfoDescription">in der internationalen Jugendarbeit in Deutschland.</div>
+                <div class="homepageInfoDescription">Sie haben eine große Erfahrung als Lehrkraft, Referenten und Fachkraft,</div>
+                <div>die sie durch  ehrenamtliches Engagement verstärken.</div>
 
-                    Unsere Referentienen und Referenten engagieren sich seit Jahren  
-                    in der internationalen Jugendarbeit in Deutschland.<br>
-                    Sie haben eine große Erfahrung als Lehrkraft, Referenten und Fachkraft, <br>
-                    die sie durch  ehrenamtliches Engagement verstärken.
+            </div>
+
+        </div>    
+
+
+            <div class="team teamMargin">
+
+                <div class="teamMember homepageInfoText">
+
+                    <div class="homepageInfoDescription">Olga Gart</div>
+
+                    <div>Leiterin und Integrationreferentin</div>
+
+                    <img src="./../assets/images/leiterin.jpg" class="teamImg">
 
                 </div>
 
-                <div>
+                <div class="teamMember homepageInfoText">
 
-                    <div class="team">
+                    <div class="homepageInfoDescription">Nadeschda Loos</div>
 
-                        <div class="teamMember homepageInfoText">
+                    <div>Verwaltungsreferentin</div>
 
-                            Olga Gart<br>
+                    <img src="./../assets/images/nadja.jpg" class="teamImg">
 
-                            Leiterin<br>
+                </div>
 
-                            Integrationreferentin<br>
+                <div class="teamMember homepageInfoText">
 
-                            <img src="./../assets/images/leiterin.jpg" class="teamImg">
+                    <div class="homepageInfoDescription">Scheuermann</div>
 
-                        </div>
+                    <div>Bastelnreferentin</div>
 
-                        <div class="teamMember homepageInfoText">
+                    <img src="./../assets/images/nadjamaman.jpg" class="teamImg">
 
-                            Nadeschda Loos<br>
+                </div>
 
-                            Verwaltungsreferentin<br><br>
+            </div>
 
-                            <img src="./../assets/images/nadja.jpg" class="teamImg">
+            <div class="team teamMargin">
 
-                        </div>
+                <div class="teamMember homepageInfoText">
 
-                        <div class="teamMember homepageInfoText">
+                    <div class="homepageInfoDescription">Anastasiya Kaptsiuh</div>
 
-                            Natalia Scheuermann<br>
+                    <div>Tanzreferentin</div>
 
-                            Bastelnreferentin<br><br>
+                    <img src="./../assets/images/tanzreferentin.jpg" class="teamImg">
 
-                            <img src="./../assets/images/nadjamaman.jpg" class="teamImg">
+                </div>
 
-                        </div>
+                <div class="teamMember homepageInfoText">
 
+                    <div class="homepageInfoDescription">Luisa Badronova</div>
 
-                    </div>
+                    <div>Tanzreferentin</div>
 
-                    <div class="team">
+                    <img src="./../assets/images/luisa.jpg" class="teamImg">
 
-                        <div class="teamMember homepageInfoText">
+                </div>
 
-                            Anastasiya Kaptsiuh<br>
+                <div class="teamMember homepageInfoText">
 
-                            Tanzreferentin<br><br>
+                    <div class="homepageInfoDescription">Maria Hofman und Nicole Schmid</div>
 
-                            <img src="./../assets/images/tanzreferentin.jpg" class="teamImg">
+                    <div>Tanzreferentinen</div>
 
-                        </div>
+                    <img src="./../assets/images/tanzreferentinen.jpg" class="teamImg">
 
-                        <div class="teamMember homepageInfoText">
-
-                            Luisa Badronova<br>
-
-                            Tanzreferentin<br><br>
-
-                            <img src="./../assets/images/luisa.jpg" class="teamImg">
-
-                        </div>
-
-                        <div class="teamMember homepageInfoText">
-
-                            Maria Hofman und Nicole Schmid <br>
-
-                            Tanzreferentinen<br><br>
-
-                            <img src="./../assets/images/tanzreferentinen.jpg" class="teamImg">
-
-                        </div>
+                </div>
 
 
-                    </div>
+            </div>
 
+        <div class="projekt homepageInfoText">
 
-                    <div class="projekt">
+            <div class="team">
 
-                        <div class="teamMember homepageInfoText">
+                Projekt Team
+                
+            </div>
 
-                            Projekt/Team<br>
+            <div class="team">
 
-                            <img src="./../assets/images/artur.jpg" class="projektImg">
+                <div class=" homepageInfoText">
 
-                            <img src="./../assets/images/anfisa.png" class="projektImg">
+                    <img src="./../assets/images/artur.jpg" class="projektImg">
 
-                            <img src="./../assets/images/lt.png" class="projektImg">
+                    <img src="./../assets/images/anfisa.png" class="projektImg">
 
-                            <img src="./../assets/images/mams.png" class="projektImg">
+                    <img src="./../assets/images/lt.png" class="projektImg">
 
-                        </div>
-
-                    </div>
-
+                    <img src="./../assets/images/mams.png" class="projektImg">
 
                 </div>
 
             </div>
 
         </div>
-        
+
     </div>
+
 </template>
 
 <style>
@@ -130,3 +128,18 @@
   @import './../assets/styles/team.css';
 
 </style>
+
+<script>
+export default {
+  head: {
+    title: 'Über uns',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Über uns'
+      }
+    ],
+  }
+}
+</script>

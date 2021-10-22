@@ -1,51 +1,107 @@
 <template>
 
-  <div class="layout homepage">
+  <div 
+    class="homepage"
+  >
 
-    <div class="homepageInfoText">
+    <div 
+      class="homepageInfoText"
+    >
 
-      <h1 class="homepageInfo">
-        Integration-Kulturzentrum Kaleidoskop e.V<br><br>
+      <h1 
+        class="homepageInfo"
+      >
+        Integration-Kulturzentrum Kaleidoskop e.V
       </h1>
 
-      <div>
-        Sonntagsstudio wurde 2010 über ein Landesprojekt  ins Leben gerufen.<br> Seit 2002 ist Jugend in Jugendklub "Explosion"  als Jugendfreizeiteinrichtung durch die Stadt,<br>JunOst e.V und DJO - deutsche Jugend in Europa gefördert.<br><br>
+      <div 
+        class="homepageInfoDescription"
+      >
+        Sonntagsstudio wurde 2010 über ein Landesprojekt  ins Leben gerufen.
+      </div>
 
-        Die aktive Beteiligung und Einbindung der Besucherinnen und Besucher,<br>wie auch die interkulturelle Öffnung sind Querschnittsaufgaben und als solche in den Angeboten  verankert.<br><br>
+      <div 
+        class="homepageInfoDescription"
+      >
+        Seit 2002 ist Jugend in Jugendklub "Explosion"  als Jugendfreizeiteinrichtung durch die Stadt,
+      </div>
+
+      <div 
+        class="homepageInfoDescription"
+      >
+        JunOst e.V und DJO - deutsche Jugend in Europa gefördert.
+      </div>
+
+      <div 
+        class="homepageInfoDescriptionInfo"
+      >
+        <div 
+          class="homepageInfoDescription"
+        >
+          Die aktive Beteiligung und Einbindung der Besucherinnen und Besucher,
+          </div>
+
+        <div 
+          class="homepageInfoDescription"
+        >
+          wie auch die interkulturelle Öffnung sind Querschnittsaufgaben und als solche in den Angeboten  verankert.<br><br>
+        </div>
       </div>
 
       <div>
 
-        <div class="homepageInfo">
+        <div 
+          class="homepageInfo"
+        >
+          Sonntagsstudio-Angebote:
+        </div>
 
-          Sonntagsstudio-Angebote:<br><br>
+        <div
+          class="homepageInfoOffers"
+        >
+          Freizeitpädagogische Angebote
+        </div>
 
+        <div
+          class="homepageInfoOffers"
+        >
+          Bewegungsangebot(Tanzen)
+        </div>
+
+        <div
+          class="homepageInfoOffers"
+        >
+          Kochangebot
+        </div>
+
+        <div
+          class="homepageInfoOffers"
+        >
+          Kreativangebot(Basteln,Musik)
+        </div>
+
+        <div
+          class="homepageInfoOffers"
+        >
+          Wochenendöffnungen
+        </div>
+
+        <div
+          class="homepageInfoOffers"
+        >
+          Ferienprogramme
         </div>
 
         <div>
 
-          Freizeitpädagogische Angebote<br><br>
-          Bewegungsangebot(Tanzen)<br><br>
-          Kochangebot<br><br>
-          Kreativangebot(Basteln,Musik)<br><br>
-          Wochenendöffnungen<br><br>
-          Ferienprogramme<br><br>
-
-        </div>
-
-        <div>
-
-          <div class="homepageInfo">
-
+          <div 
+            class="homepageInfo"
+          >
             Zielgruppen:
-
           </div>
 
           <div>
-
-            Kinder und Jugendliche aller Nationalitäten und Kulturen<br><br>
-            Eltern
-
+            Kinder und Jugendliche aller Nationalitäten und Kulturen Eltern
           </div>
 
         </div>
@@ -53,7 +109,6 @@
       </div>
 
     </div>
-
 
     <Nuxt />
 

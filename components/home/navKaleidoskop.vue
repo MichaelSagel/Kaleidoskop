@@ -5,9 +5,10 @@
     >
       <img src="./../../assets/images/romb.jpg" alt="Logo" class="navigation__image" >
     </NuxtLink>
-    <div class="navigation__list">
-      
-      
+
+    <div 
+      class="navigation__list"
+    >      
       <NuxtLink
         to="/gallery" 
         class="button-body navigation__list-item"

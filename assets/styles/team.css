@@ -1,15 +1,22 @@
 .team {
     display: flex;
-    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.teamMargin {
+    margin-bottom: 40px;
 }
 
 .projekt{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 36px;
 }
 
 .projektImg{
     width: auto;
-    height: 200px;
+    height: 250px;
 }
 
 .teamMember {
