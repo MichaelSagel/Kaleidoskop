@@ -43,4 +43,11 @@
     .adress {
         flex-direction: column;
     }
+    .addressInfo {
+        justify-content: center;
+    }
+    .addressInfoContainer{
+        display: flex;
+        justify-content: center;
+    }
 }

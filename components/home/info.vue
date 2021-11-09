@@ -23,38 +23,38 @@
 
       <div class="addressInfo">
 
-      <span>Kindersonntagsstudio</span>
-      <span>"Vier Koffer"</span>
-      <span>STFZ Albersbösch</span>
-      <span>Altenburger Allee 8</span>
-      <span>77656 Offenburg</span>
+        <span class="addressInfoContainer">Kindersonntagsstudio</span>
+        <span class="addressInfoContainer">"Vier Koffer"</span>
+        <span class="addressInfoContainer">STFZ Albersbösch</span>
+        <span class="addressInfoContainer">Altenburger Allee 8</span>
+        <span class="addressInfoContainer">77656 Offenburg</span>
 
       </div>
 
       <div class="addressInfo">
 
-        <span>Jugendklub "Explosion"</span>
-        <span>Wichernstr.67</span>
-        <span>77656 Offenburg</span>
+        <span class="addressInfoContainer">Jugendklub "Explosion"</span>
+        <span class="addressInfoContainer">Wichernstr.67</span>
+        <span class="addressInfoContainer">77656 Offenburg</span>
 
       </div>
 
       <div class="addressInfo">
 
-        <span>Zentrum-Büro</span>
-        <span>Am Stadtwald 6d</span>
-        <span>77656 Offenburg</span>
+        <span class="addressInfoContainer">Zentrum-Büro</span>
+        <span class="addressInfoContainer">Am Stadtwald 6d</span>
+        <span class="addressInfoContainer">77656 Offenburg</span>
 
       </div>
 
       <div class="addressInfo">
 
-        <span>Integrationsreferentin</span>
-        <span>djo-deutsche Jugend in Europa</span>
-        <span>LV BaWü e.V</span>
-        <span>Olga Gart</span>
-        <span>Ikz_kaleidoskop@yahoo.com</span>
-        <span>Tel.0781/9672807</span>
+        <span class="addressInfoContainer">Integrationsreferentin</span>
+        <span class="addressInfoContainer">djo-deutsche Jugend in Europa</span>
+        <span class="addressInfoContainer">LV BaWü e.V</span>
+        <span class="addressInfoContainer">Olga Gart</span>
+        <span class="addressInfoContainer">Ikz_kaleidoskop@yahoo.com</span>
+        <span class="addressInfoContainer">Tel.0781/9672807</span>
 
       </div>
 
