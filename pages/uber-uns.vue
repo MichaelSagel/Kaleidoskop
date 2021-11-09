@@ -26,31 +26,37 @@
 
                 <div class="teamMember homepageInfoText">
 
-                    <div class="homepageInfoDescription">Olga Gart</div>
+                    <div class="homepageInfoDescription projektTeam">Olga Gart</div>
 
-                    <div>Leiterin und Integrationreferentin</div>
+                    <div class="projektTeam">Leiterin und Integrationreferentin</div>
 
-                    <img src="./../assets/images/leiterin.jpg" class="teamImg">
-
-                </div>
-
-                <div class="teamMember homepageInfoText">
-
-                    <div class="homepageInfoDescription">Nadeschda Loos</div>
-
-                    <div>Verwaltungsreferentin</div>
-
-                    <img src="./../assets/images/nadja.jpg" class="teamImg">
+                    <div class="projektTeam">
+                        <img src="./../assets/images/leiterin.jpg" class="teamImg">
+                    </div>
 
                 </div>
 
                 <div class="teamMember homepageInfoText">
 
-                    <div class="homepageInfoDescription">Scheuermann</div>
+                    <div class="homepageInfoDescription projektTeam">Nadeschda Loos</div>
 
-                    <div>Bastelnreferentin</div>
+                    <div class="projektTeam">Verwaltungsreferentin</div>
 
-                    <img src="./../assets/images/nadjamaman.jpg" class="teamImg">
+                    <div class="projektTeam">
+                        <img src="./../assets/images/nadja.jpg" class="teamImg">
+                    </div>
+
+                </div>
+
+                <div class="teamMember homepageInfoText">
+
+                    <div class="homepageInfoDescription projektTeam">Natalie Scheuermann</div>
+
+                    <div class="projektTeam">Bastelnreferentin</div>
+
+                    <div class="projektTeam">
+                        <img src="./../assets/images/nadjamaman.jpg" class="teamImg">
+                    </div>
 
                 </div>
 
@@ -58,33 +64,39 @@
 
             <div class="team teamMargin">
 
-                <div class="teamMember homepageInfoText">
+                <div class="teamMember  homepageInfoText">
 
-                    <div class="homepageInfoDescription">Anastasiya Kaptsiuh</div>
+                    <div class="homepageInfoDescription projektTeam">Anastasiya Kaptsiuh</div>
 
-                    <div>Tanzreferentin</div>
+                    <div class="projektTeam">Tanzreferentin</div>
 
-                    <img src="./../assets/images/tanzreferentin.jpg" class="teamImg">
+                    <div class="projektTeam">
+                        <img src="./../assets/images/tanzreferentin.jpg" class="teamImg">
+                    </div>
+
+                </div>
+
+                <div class="teamMember  homepageInfoText">
+
+                    <div class="homepageInfoDescription projektTeam">Luisa Badronova</div>
+
+                    <div class="projektTeam">Tanzreferentin</div>
+
+                    <div class="projektTeam">
+                        <img src="./../assets/images/luisa.jpg" class="teamImg">
+                    </div>
 
                 </div>
 
                 <div class="teamMember homepageInfoText">
 
-                    <div class="homepageInfoDescription">Luisa Badronova</div>
+                    <div class="homepageInfoDescription projektTeam">Maria Hofman und Nicole Schmid</div>
 
-                    <div>Tanzreferentin</div>
+                    <div class="projektTeam">Tanzreferentinen</div>
 
-                    <img src="./../assets/images/luisa.jpg" class="teamImg">
-
-                </div>
-
-                <div class="teamMember homepageInfoText">
-
-                    <div class="homepageInfoDescription">Maria Hofman und Nicole Schmid</div>
-
-                    <div>Tanzreferentinen</div>
-
-                    <img src="./../assets/images/tanzreferentinen.jpg" class="teamImg">
+                    <div class="projektTeam">
+                        <img src="./../assets/images/tanzreferentinen.jpg" class="teamImg">
+                    </div>
 
                 </div>
 
@@ -93,15 +105,13 @@
 
         <div class="projekt homepageInfoText">
 
-            <div class="team">
+            <div class="projektTeam">
 
                 Projekt Team
                 
             </div>
 
-            <div class="team">
-
-                <div class=" homepageInfoText">
+            <div class="projektTeam">
 
                     <img src="./../assets/images/artur.jpg" class="projektImg">
 
@@ -110,8 +120,6 @@
                     <img src="./../assets/images/lt.png" class="projektImg">
 
                     <img src="./../assets/images/mams.png" class="projektImg">
-
-                </div>
 
             </div>
 

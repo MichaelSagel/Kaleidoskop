@@ -11,26 +11,34 @@
     >      
       <NuxtLink
         to="/gallery" 
-        class="button-body navigation__list-item"
+        class="navigation__list-item"
       >
         Galerie
       </NuxtLink>
       
       <NuxtLink
         to="/uber-uns"
-        class="button-body navigation__list-item"
+        class="navigation__list-item"
       >
         Über uns
       </NuxtLink>
 
       <NuxtLink
           to="/partner" 
-          class="button-body navigation__list-item"
+          class="navigation__list-item"
         >
           Partner
         </NuxtLink>
-
     </div>
+
+    <a
+      href="https://www.instagram.com/olgagart_kaleidoskop/"
+      target=“_blank“
+      rel=“noopener“
+    >
+      <img src="./../../assets/images/instagram.png" alt="Logo" class="instagram_image" >
+    </a>
+
   </nav>
 
 </template>

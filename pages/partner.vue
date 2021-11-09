@@ -14,6 +14,8 @@
 
                 <a
                     href="https://djo.de/"
+                    target=“_blank“
+                    rel=“noopener“
                 >
                     <img 
                         class="partner-image" 
@@ -23,6 +25,8 @@
 
                 <a
                     href="https://www.bmbf.de/bmbf/de/home/home_node.html"
+                    target=“_blank“
+                    rel=“noopener“
                 >
                     <img 
                         class="partner-image"
@@ -32,6 +36,8 @@
 
                 <a
                     href="https://www.junost-online.de/"
+                    target=“_blank“
+                    rel=“noopener“
                 >
 
                     <img
@@ -42,6 +48,8 @@
 
                 <a
                     href="https://www.offenburg.de/"
+                    target=“_blank“
+                    rel=“noopener“
                 >
                     <img
                         class="partner-image"
@@ -51,6 +59,8 @@
 
                 <a
                     href="https://www.buendnisse-fuer-bildung.de/buendnissefuerbildung/de/home/home_node.html"
+                    target=“_blank“
+                    rel=“noopener“
                 >
                     <img
                         class="partner-image"
@@ -60,6 +70,8 @@
 
                 <a
                     href="https://ladogakunst.jimdofree.com/"
+                    target=“_blank“
+                    rel=“noopener“
                 >
                     <img
                         class="partner-image"
@@ -69,6 +81,8 @@
 
                 <a
                     href="https://de-de.facebook.com/JurmalasMakslasskola/posts/851318801594203/"
+                    target=“_blank“
+                    rel=“noopener“
                 >                    
                     <img
                         class="partner-image"
@@ -78,6 +92,8 @@
                 
                 <a
                     href="https://www.erloeser-og.de/"
+                    target=“_blank“
+                    rel=“noopener“
                 >
                     <img
                         class="partner-image"
@@ -87,6 +103,8 @@
 
                 <a
                     href="https://www.samovar-ev.de/"
+                    target=“_blank“
+                    rel=“noopener“
                 >
                     <img
                         class="partner-image"

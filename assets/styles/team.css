@@ -1,10 +1,17 @@
 .team {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .teamMargin {
     margin-bottom: 40px;
+}
+
+.projektTeam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projekt{
@@ -21,7 +28,7 @@
 
 .teamMember {
     margin: 8px;
-    margin-top: 36px;
+    margin-top: 46px;
     width: auto;
     height: 400px;
 }
@@ -35,6 +42,8 @@
 
     .team {
         flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0px;
     }
 
     .teamImg {
@@ -42,14 +51,15 @@
         height: auto;
     }
 
-    .team {
-        margin-bottom: 0px;
+    .projektTeam {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .teamMember {
         margin: 8px;
         margin-top: 24px;
-        width: 200px;
         height: auto;
     }
 
