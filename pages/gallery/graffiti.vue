@@ -1,9 +1,18 @@
 <template>
 
-    <div class="gallerysContainer">
+     <div class="galleryContainer">
 
         <div id="app" class="photoContainer">
-            <img class="image" v-for="(image, i) in images" :src="image" :key="i" @click="index = i">
+            <div class="image-wrapper"
+                v-for="(image, i) in images"
+                :key="i" 
+            >
+                <img 
+                    class="image"
+                    :src="image"
+                    @click="index = i"
+                >
+            </div>
             <client-only placeholder="Loading...">
                 <VueGallerySlideshow :images="images" :index="index" @close="index = null" />
             </client-only>
