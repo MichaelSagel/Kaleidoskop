@@ -79,7 +79,7 @@
 
       </div>
 
-      <div>
+      <div class="gallery-Content">
 
           <Nuxt />
 
@@ -101,8 +101,6 @@ export default {
     title: 'Galerie',
     meta: [
       {
-        hid: 'description',
-        name: 'description',
         content: 'Galerie'
       }
     ],

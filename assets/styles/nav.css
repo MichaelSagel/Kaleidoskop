@@ -23,7 +23,9 @@
     justify-content: flex-start;
 }
 
-
+.gallery-Content{
+    width: 100%;
+}
 
 .navButton {
     font-size: 16pt;

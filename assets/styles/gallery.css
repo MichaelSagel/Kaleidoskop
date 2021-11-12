@@ -1,16 +1,13 @@
 .galleryContainer{
-    width: 100%;
 }
 
 .photoContainer{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    width: 100%;
 }
 
 .image-wrapper{
-    width: 100%;
     position: relative;
     padding-top: 100%;
 }
