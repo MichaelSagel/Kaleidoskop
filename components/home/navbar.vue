@@ -1,31 +1,31 @@
 <template>
-  <nav class="navigation">
+  <nav class="navbar">
     <NuxtLink
       to="/"
     >
-      <img src="./../../assets/images/romb.jpg" alt="Logo" class="navigation__image" >
+      <img src="./../../assets/images/romb.jpg" alt="Logo" class="navbar__image" >
     </NuxtLink>
 
     <div 
-      class="navigation__list"
+      class="navbar__list"
     >      
       <NuxtLink
         to="/gallery" 
-        class="navigation__list-item"
+        class="navbar__list-item"
       >
         Galerie
       </NuxtLink>
       
       <NuxtLink
         to="/uber-uns"
-        class="navigation__list-item"
+        class="navbar__list-item"
       >
         Über uns
       </NuxtLink>
 
       <NuxtLink
           to="/partner" 
-          class="navigation__list-item"
+          class="navbar__list-item"
         >
           Partner
         </NuxtLink>
@@ -36,7 +36,7 @@
       target=“_blank“
       rel=“noopener“
     >
-      <img src="./../../assets/images/instagram.png" alt="Logo" class="instagram_image" >
+      <img src="./../../assets/images/instagram.png" alt="Logo" class="instagram__image" >
     </a>
 
   </nav>
@@ -45,5 +45,5 @@
 
 
 <style>
-@import './../../assets/styles/navKaleidoskop.css';
+@import './../../assets/styles/navbar.css';
 </style>

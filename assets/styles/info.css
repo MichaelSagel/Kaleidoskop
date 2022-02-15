@@ -6,8 +6,14 @@
     padding-top: 36px;
     color: #000000;
 }
-    
-.addressName{
+
+.adress {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.address-name{
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -16,7 +22,7 @@
     justify-content: center;
 }
     
-.addressInfo {
+.address-info {
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -27,13 +33,7 @@
     line-height: 28px;
 }
 
-.adress {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-
-.openingHours {
+.opening-hours {
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -43,10 +43,10 @@
     .adress {
         flex-direction: column;
     }
-    .addressInfo {
+    .address-info {
         justify-content: center;
     }
-    .addressInfoContainer{
+    .address-info__container{
         display: flex;
         justify-content: center;
     }

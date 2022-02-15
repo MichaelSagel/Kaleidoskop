@@ -4,9 +4,9 @@
 
     <background/>
 
-    <navKaleidoskop/>
+    <navbar/>
 
-    <Nuxt />
+    <Nuxt/>
 
     <info/>
 
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-  import navKaleidoskop from './../components/home/navKaleidoskop.vue';
+  import navbar from '../components/home/navbar.vue';
   import info from './../components/home/info.vue';
   import background from './../components/home/background.vue';
 
   export default {
     components: {
-      navKaleidoskop,
+      navbar,
       info,
       background,
     },

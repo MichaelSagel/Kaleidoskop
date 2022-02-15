@@ -2,18 +2,18 @@
 
   <footer class="info">
 
-    <div class="addressName">
+    <div class="address-name">
         Integration-Kulturzentrum Kaleidoskop e.V
         
     </div>
 
-    <div class="openingHours">
+    <div class="opening-hours">
 
-      <div class="addressInfo">
+      <div class="address-info">
         Öffnungszeiten:
       </div>
 
-      <div class="addressInfo">
+      <div class="address-info">
         Sonntags: 15:00 bis 17:30 Uhr
       </div>
 
@@ -21,40 +21,40 @@
 
     <div class="adress">
 
-      <div class="addressInfo">
+      <div class="address-info">
 
-        <span class="addressInfoContainer">Kindersonntagsstudio</span>
-        <span class="addressInfoContainer">"Vier Koffer"</span>
-        <span class="addressInfoContainer">STFZ Albersbösch</span>
-        <span class="addressInfoContainer">Altenburger Allee 8</span>
-        <span class="addressInfoContainer">77656 Offenburg</span>
-
-      </div>
-
-      <div class="addressInfo">
-
-        <span class="addressInfoContainer">Jugendklub "Explosion"</span>
-        <span class="addressInfoContainer">Wichernstr.67</span>
-        <span class="addressInfoContainer">77656 Offenburg</span>
+        <span class="address-info__container">Kindersonntagsstudio</span>
+        <span class="address-info__container">"Vier Koffer"</span>
+        <span class="address-info__container">STFZ Albersbösch</span>
+        <span class="address-info__container">Altenburger Allee 8</span>
+        <span class="address-info__container">77656 Offenburg</span>
 
       </div>
 
-      <div class="addressInfo">
+      <div class="address-info">
 
-        <span class="addressInfoContainer">Zentrum-Büro</span>
-        <span class="addressInfoContainer">Am Stadtwald 6d</span>
-        <span class="addressInfoContainer">77656 Offenburg</span>
+        <span class="address-info__container">Jugendklub "Explosion"</span>
+        <span class="address-info__container">Wichernstr.67</span>
+        <span class="address-info__container">77656 Offenburg</span>
 
       </div>
 
-      <div class="addressInfo">
+      <div class="address-info">
 
-        <span class="addressInfoContainer">Integrationsreferentin</span>
-        <span class="addressInfoContainer">djo-deutsche Jugend in Europa</span>
-        <span class="addressInfoContainer">LV BaWü e.V</span>
-        <span class="addressInfoContainer">Olga Gart</span>
-        <span class="addressInfoContainer">Ikz_kaleidoskop@yahoo.com</span>
-        <span class="addressInfoContainer">Tel.0781/9672807</span>
+        <span class="address-info__container">Zentrum-Büro</span>
+        <span class="address-info__container">Am Stadtwald 6d</span>
+        <span class="address-info__container">77656 Offenburg</span>
+
+      </div>
+
+      <div class="address-info">
+
+        <span class="address-info__container">Integrationsreferentin</span>
+        <span class="address-info__container">djo-deutsche Jugend in Europa</span>
+        <span class="address-info__container">LV BaWü e.V</span>
+        <span class="address-info__container">Olga Gart</span>
+        <span class="address-info__container">Ikz_kaleidoskop@yahoo.com</span>
+        <span class="address-info__container">Tel.0781/9672807</span>
 
       </div>
 

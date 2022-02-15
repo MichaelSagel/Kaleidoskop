@@ -4,11 +4,11 @@
     justify-content: center;
 }
 
-.teamMargin {
+.team-margin {
     margin-bottom: 40px;
 }
 
-.projektTeam {
+.projekt-team {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -21,19 +21,19 @@
     margin-top: 36px;
 }
 
-.projektImg{
+.projekt__img{
     width: auto;
     height: 250px;
 }
 
-.teamMember {
+.team-member {
     margin: 8px;
     margin-top: 46px;
     width: auto;
     height: 400px;
 }
 
-.teamImg{
+.team__img{
     width: auto;
     height: 400px;
 }
@@ -46,18 +46,18 @@
         margin-bottom: 0px;
     }
 
-    .teamImg {
+    .team__img {
         width: 300px;
         height: auto;
     }
 
-    .projektTeam {
+    .projekt-team {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .teamMember {
+    .team-member {
         margin: 8px;
         margin-top: 24px;
         height: auto;

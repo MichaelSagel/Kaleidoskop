@@ -1,77 +1,77 @@
 <template>
   <nav class="nav">
 
-      <div class="navBar">
+      <div class="gallery-navbar">
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery" 
           >
             Auftritte
           </NuxtLink>
           
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/auszeichnungen" 
             >
             Auszeichnungen
           </NuxtLink>
 
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/camps"
           >
             Camps
           </NuxtLink>
 
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/dance"
           >
           Dance
           </NuxtLink>
 
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/gesang"
           >
             Gesang
           </NuxtLink>
 
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/kochmeister"
           >
             Kochmeister
           </NuxtLink>
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/spielen"
           >
             Spielen
           </NuxtLink>
 
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/silvester"
           >
             Silvester
           </NuxtLink>
 
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/künstler"
           >
             Künstler
           </NuxtLink>
 
               
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/graffiti"
           >
             Graffiti Workshop
           </NuxtLink>
                   
                   
-          <NuxtLink class="navButton"
+          <NuxtLink class="nav-button"
             to="/gallery/sonstige"
           >
             Sonstige
@@ -79,7 +79,7 @@
 
       </div>
 
-      <div class="gallery-Content">
+      <div class="gallery-content">
 
           <Nuxt />
 

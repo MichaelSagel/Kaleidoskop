@@ -1,8 +1,8 @@
 <template>
 
-    <div class="img-kaleidoskop">
+    <div class="kaleidoskop__img">
 
-      <img src="./../../assets/images/kaleidoskop.jpg" alt="Logo" class="img-kaleidoskop-body">
+      <img src="./../../assets/images/kaleidoskop.jpg" alt="Logo" class="kaleidoskop-body__img">
       
     </div>
 

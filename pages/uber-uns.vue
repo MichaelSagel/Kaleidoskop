@@ -8,94 +8,94 @@
             Kaleidoskop-Team
         </h1>
 
-        <div class="homepageHeader">
+        <div class="homepage-header">
 
-            <div class="homepageInfoText">
+            <div class="homepage-info__text">
 
-                <div class="homepageInfoDescription">Unsere Referentienen und Referenten engagieren sich seit Jahren</div>  
-                <div class="homepageInfoDescription">in der internationalen Jugendarbeit in Deutschland.</div>
-                <div class="homepageInfoDescription">Sie haben eine große Erfahrung als Lehrkraft, Referenten und Fachkraft,</div>
+                <div class="homepage-info-description">Unsere Referentienen und Referenten engagieren sich seit Jahren</div>  
+                <div class="homepage-info-description">in der internationalen Jugendarbeit in Deutschland.</div>
+                <div class="homepage-info-description">Sie haben eine große Erfahrung als Lehrkraft, Referenten und Fachkraft,</div>
                 <div>die sie durch  ehrenamtliches Engagement verstärken.</div>
 
             </div>
 
-        </div>    
+        </div>
 
 
-            <div class="team teamMargin">
+        <div class="team team-margin">
 
-                <div class="teamMember homepageInfoText">
+                <div clss="team-member homepage-info__text">
 
-                    <div class="homepageInfoDescription projektTeam">Olga Gart</div>
+                    <div class="homepage-info-description projekt-team">Olga Gart</div>
 
-                    <div class="projektTeam">Leiterin und Integrationreferentin</div>
+                    <div class="projekt-team">Leiterin und Integrationreferentin</div>
 
-                    <div class="projektTeam">
-                        <img src="./../assets/images/leiterin.jpg" class="teamImg">
+                    <div class="projekt-team">
+                        <img src="./../assets/images/leiterin.jpg" class="team__img">
                     </div>
 
                 </div>
 
-                <div class="teamMember homepageInfoText">
+                <div class="team-member homepage-info__text">
 
-                    <div class="homepageInfoDescription projektTeam">Nadeschda Loos</div>
+                    <div class="homepage-info-description projekt-team">Nadeschda Loos</div>
 
-                    <div class="projektTeam">Verwaltungsreferentin</div>
+                    <div class="projekt-team">Verwaltungsreferentin</div>
 
-                    <div class="projektTeam">
-                        <img src="./../assets/images/nadja.jpg" class="teamImg">
+                    <div class="projekt-team">
+                        <img src="./../assets/images/nadja.jpg" class="team__img">
                     </div>
 
                 </div>
 
-                <div class="teamMember homepageInfoText">
+                <div class="team-member homepage-info__text">
 
-                    <div class="homepageInfoDescription projektTeam">Natalie Scheuermann</div>
+                    <div class="homepage-info-description projekt-team">Natalie Scheuermann</div>
 
-                    <div class="projektTeam">Bastelnreferentin</div>
+                    <div class="projekt-team">Bastelnreferentin</div>
 
-                    <div class="projektTeam">
-                        <img src="./../assets/images/nadjamaman.jpg" class="teamImg">
+                    <div class="projekt-team">
+                        <img src="./../assets/images/nadjamaman.jpg" class="team__img">
                     </div>
 
                 </div>
 
             </div>
 
-            <div class="team teamMargin">
+            <div class="team team-margin">
 
-                <div class="teamMember  homepageInfoText">
+                <div class="teamMember  homepage-info__text">
 
-                    <div class="homepageInfoDescription projektTeam">Anastasiya Kaptsiuh</div>
+                    <div class="homepage-info-description projekt-team">Anastasiya Kaptsiuh</div>
 
-                    <div class="projektTeam">Tanzreferentin</div>
+                    <div class="projekt-team">Tanzreferentin</div>
 
-                    <div class="projektTeam">
-                        <img src="./../assets/images/tanzreferentin.jpg" class="teamImg">
+                    <div class="projekt-team">
+                        <img src="./../assets/images/tanzreferentin.jpg" class="team__img">
                     </div>
 
                 </div>
 
-                <div class="teamMember  homepageInfoText">
+                <div class="team-member  homepage-info__text">
 
-                    <div class="homepageInfoDescription projektTeam">Luisa Badronova</div>
+                    <div class="homepage-info-description projekt-team">Luisa Badronova</div>
 
-                    <div class="projektTeam">Tanzreferentin</div>
+                    <div class="projekt-team">Tanzreferentin</div>
 
-                    <div class="projektTeam">
-                        <img src="./../assets/images/luisa.jpg" class="teamImg">
+                    <div class="projekt-team">
+                        <img src="./../assets/images/luisa.jpg" class="team__img">
                     </div>
 
                 </div>
 
-                <div class="teamMember homepageInfoText">
+                <div class="team-member homepage-info__text">
 
-                    <div class="homepageInfoDescription projektTeam">Maria Hofman und Nicole Schmid</div>
+                    <div class="homepage-info-description projekt-team">Maria Hofmann und Nicole Schmidt</div>
 
-                    <div class="projektTeam">Tanzreferentinen</div>
+                    <div class="projekt-team">Tanzreferentinen</div>
 
-                    <div class="projektTeam">
-                        <img src="./../assets/images/tanzreferentinen.jpg" class="teamImg">
+                    <div class="projekt-team">
+                        <img src="./../assets/images/tanzreferentinen.jpg" class="team__img">
                     </div>
 
                 </div>
@@ -103,23 +103,23 @@
 
             </div>
 
-        <div class="projekt homepageInfoText">
+        <div class="projekt homepage-info__text">
 
-            <div class="projektTeam">
+            <div class="projekt-team">
 
                 Projekt Team
                 
             </div>
 
-            <div class="projektTeam">
+            <div class="projekt-team">
 
-                    <img src="./../assets/images/artur.jpg" class="projektImg">
+                    <img src="./../assets/images/artur.jpg" class="projekt__img">
 
-                    <img src="./../assets/images/anfisa.png" class="projektImg">
+                    <img src="./../assets/images/anfisa.png" class="projekt__img">
 
-                    <img src="./../assets/images/lt.png" class="projektImg">
+                    <img src="./../assets/images/lt.png" class="projekt__img">
 
-                    <img src="./../assets/images/mams.png" class="projektImg">
+                    <img src="./../assets/images/mams.png" class="projekt__img">
 
             </div>
 

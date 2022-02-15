@@ -1,4 +1,4 @@
-.navigation {
+.navbar {
     width: 100%;
     margin-bottom: 36px;
     display: flex;
@@ -8,19 +8,13 @@
     position: relative;
 }
 
-.navigation__image {
+.navbar__image {
     height: 60px;
     margin-right: 10px;
     margin-top: 4px;
 }
 
-.instagram_image {
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.navigation__list {
+.navbar__list {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -31,7 +25,7 @@
     border-radius: 16px;
 }
 
-.navigation__list-item {
+.navbar__list-item {
     font-size: 16pt;
     line-height: 36px;
     font-weight: 500;
@@ -40,17 +34,23 @@
     color: black;
 }
 
-.navigation__list-item:hover {
+.navbar__list-item:hover {
     background-color: #aacc5c;
 }
 
 @media screen and (max-width: 768px) {
-    .navigation__list {
+    .navbar__list {
         flex-direction: column;
     }
-    .navigation__image {
+    .navbar__image {
         height: 140px;
         margin-right: 10px;
         margin-left: 10px;
     }
+}
+
+.instagram__image {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
 }

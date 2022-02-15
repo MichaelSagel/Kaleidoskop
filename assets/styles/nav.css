@@ -15,7 +15,7 @@
     text-decoration-color: #aacc5c;
 }
 
-.navBar {
+.gallery-navbar {
     width: auto;
     position: relative;
     display: flex;
@@ -23,11 +23,11 @@
     justify-content: flex-start;
 }
 
-.gallery-Content{
+.gallery-content{
     width: 100%;
 }
 
-.navButton {
+.nav-button {
     font-size: 16pt;
     text-decoration: underline;
     text-decoration-color: #aacc5c;
@@ -41,7 +41,7 @@
     font-weight: 500;
 }
     
-.navButton:hover {
+.nav-button:hover {
     background-color: #aacc5c;
 }
 
@@ -51,7 +51,7 @@
         flex-direction: column;
     }
 
-    .navButton {
+    .nav-button {
     
         margin: 10px;
     }
