@@ -9,7 +9,7 @@
     >
 
       <h1 
-        class="homepageInfo"
+        class="homepage-info"
       >
         Integration-Kulturzentrum Kaleidoskop e.V
       </h1>
